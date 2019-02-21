@@ -1,0 +1,41 @@
+html {
+	@media screen and (max-width: 319px) {
+		font-size: 12px;
+	}
+	@media screen and (min-width: 320px) and (max-width: 374px) {
+		font-size: 16px;
+	}
+	@media screen and (min-width: 375px) and (max-width: 413px) {
+		font-size: 18px;
+	}
+	@media screen and (min-width: 414px) and (max-width: 767px) {
+		font-size: 20px;
+	}
+	@media screen and (min-width: 768px) and (max-width: 1023px) {
+		font-size: 35px;
+	}
+	@media screen and (min-width: 1024px) {
+		font-size: 40px;
+	}
+}
+
+body {
+	background-color: $body-bg-color;
+	margin: 0rem;
+	padding: 0rem;
+}
+
+// 图标
+.icon {
+	width: 0.9rem;
+	height: 0.9rem;
+	vertical-align: -0.2rem;
+	fill: currentColor;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.sg-small-icon {
+	width: 0.5rem;
+	height: 0.5rem;
+	vertical-align: 0.15rem;
+}
