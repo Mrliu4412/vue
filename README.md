@@ -1,20 +1,20 @@
 # sgnews
 
 > 某市新闻网站，是一款基于Vue.JS的移动端Web程序。
-> 预览链接：https://linan919.github.io/sgnews/
+> 预览链接：https://mrliu4412.github.io/vue/
 
-所用到的框架包括：Vue、SASS、Mint UI，由于时间关系，目前只做了首页。
+所用到的框架包括：Vue、SASS、Mit UI，由于时间关系，目前只做了首页。
 
 ## Build Setup
 
-``` bash
+``` bas
 # install dependencies
 npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
+# build for production with minificaon
 npm run build
 
 # build for production and view the bundle analyzer report
